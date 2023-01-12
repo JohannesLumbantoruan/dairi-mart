@@ -1,0 +1,168 @@
+body{
+	margin:0px;
+	justify-content:center;
+	display:flex;
+	background-color: #ddd;
+}
+
+.container-tengah{
+
+	width:430px;
+	min-height: 100px;
+	
+	background: #ECECEC;
+
+
+		overflow:auto;
+
+}
+
+.panel-atas{
+	height:105px;
+	background-color:#02207a;
+	width:auto;
+	position:relative;
+	z-index:1;
+
+}
+
+.tempat-iklan{
+
+height:220px;
+width:90%;
+margin-left:5%;
+margin-top:30px;
+border-radius:10px;
+border-bottom:3px solid blue;
+z-index:2;
+}
+
+.logo-kiri{
+
+	position:absolute;
+}
+
+.gambar-karangtaruna{
+	height:70px;margin-left:5px;margin-top:12.5px;
+}
+
+.logo-kanan{
+	position:absolute;right:0px;
+}
+
+.gambar-bupati{
+	height:100px;
+	margin-left:5px;
+	margin-top:2.5px;
+}
+/* Slideshow */
+
+
+
+      /* end */
+
+
+.tombol-menu{
+
+	justify-content: center;
+	display:flex;
+	user-select:none;
+	cursor:pointer;
+}
+
+.tombol{
+	border-radius:100%;	
+
+	width:60px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+
+	box-shadow: 0px 7px 21px -5px rgba(74,74,74,0.56);
+-webkit-box-shadow: 0px 7px 21px -5px rgba(74,74,74,0.56);
+-moz-box-shadow: 0px 7px 21px -5px rgba(74,74,74,0.56);
+
+}
+
+.tombol:hover{
+
+	background-color:blue;
+	color:white;
+}
+
+.tombol:active{
+
+box-shadow: 0px 0px 0px 0px rgba(74,74,74,0.56);
+-webkit-box-shadow: 0px 0px 0px 0px rgba(74,74,74,0.56);
+-moz-box-shadow: 0px 0px 0px 0px rgba(74,74,74,0.56);
+
+}
+
+.icon-tombol{
+
+	line-height:60px;
+	font-size:24px;
+
+
+}
+
+.tempat-text-bawah-icon{
+display:flex;
+justify-content: center;
+}
+
+.text-bawah-icon{
+	text-align:center;
+	margin-top:9px;
+
+}
+
+.tombol-hotel{
+	background-color:#225c9f;
+	color:white;
+}
+
+.tombol-Tenun{
+
+	background-color:#06455E;
+	color:#ddd;
+}
+
+.tombol-delivery{
+	color:white;
+	background-color:#f96e06;
+}
+
+.tombol-mart{
+	color:#dd314c;
+	background-color:#f8f9fc;
+}
+
+.tombol-topup{
+	color:#18445f;
+	background-color:#f8f9fc;
+}
+
+
+
+
+a{
+text-decoration:none;
+}
+
+
+/* Media Tablet  */
+
+@media screen and (max-width: 1060px) {
+
+
+
+}
+
+/* Media tabled Portrait */
+
+@media screen and (max-width: 760px) {
+
+
+
+}
